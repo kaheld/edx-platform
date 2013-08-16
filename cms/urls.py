@@ -25,6 +25,8 @@ urlpatterns = ('',  # nopep8
     url(r'^create_new_course', 'contentstore.views.create_new_course', name='create_new_course'),
     url(r'^reorder_static_tabs', 'contentstore.views.reorder_static_tabs', name='reorder_static_tabs'),
 
+    url(r'^sysadmin', 'contentstore.views.sysadmin', name='sysadmin'),
+
     url(r'^(?P<org>[^/]+)/(?P<course>[^/]+)/course/(?P<name>[^/]+)$',
         'contentstore.views.course_index', name='course_index'),
     url(r'^(?P<org>[^/]+)/(?P<course>[^/]+)/import/(?P<name>[^/]+)$',
