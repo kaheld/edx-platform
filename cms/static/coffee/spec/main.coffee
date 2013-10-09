@@ -144,7 +144,7 @@ requirejs.config({
             deps: ["jquery"]
         }
     }
-);
+});
 
 jasmine.getFixtures().fixturesPath += 'coffee/fixtures'
 
